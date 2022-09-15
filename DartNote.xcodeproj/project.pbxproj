@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA9493A28D3F20600AC838B /* DartNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9493928D3F20600AC838B /* DartNoteApp.swift */; };
+		4AA9493C28D3F20600AC838B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9493B28D3F20600AC838B /* ContentView.swift */; };
+		4AA9493E28D3F20700AC838B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA9493D28D3F20700AC838B /* Assets.xcassets */; };
+		4AA9494128D3F20700AC838B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA9494028D3F20700AC838B /* Preview Assets.xcassets */; };
+		4AA9494328D3F20700AC838B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9494228D3F20700AC838B /* Persistence.swift */; };
+		4AA9494628D3F20700AC838B /* DartNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9494428D3F20700AC838B /* DartNote.xcdatamodeld */; };
+		4AA9495028D3F20700AC838B /* DartNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9494F28D3F20700AC838B /* DartNoteTests.swift */; };
+		4AA9495A28D3F20700AC838B /* DartNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9495928D3F20700AC838B /* DartNoteUITests.swift */; };
+		4AA9495C28D3F20700AC838B /* DartNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9495B28D3F20700AC838B /* DartNoteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AA9494C28D3F20700AC838B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AA9492E28D3F20600AC838B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA9493528D3F20600AC838B;
+			remoteInfo = DartNote;
+		};
+		4AA9495628D3F20700AC838B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AA9492E28D3F20600AC838B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA9493528D3F20600AC838B;
+			remoteInfo = DartNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AA9493628D3F20600AC838B /* DartNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DartNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA9493928D3F20600AC838B /* DartNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartNoteApp.swift; sourceTree = "<group>"; };
+		4AA9493B28D3F20600AC838B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4AA9493D28D3F20700AC838B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AA9494028D3F20700AC838B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AA9494228D3F20700AC838B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4AA9494528D3F20700AC838B /* DartNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DartNote.xcdatamodel; sourceTree = "<group>"; };
+		4AA9494B28D3F20700AC838B /* DartNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DartNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA9494F28D3F20700AC838B /* DartNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartNoteTests.swift; sourceTree = "<group>"; };
+		4AA9495528D3F20700AC838B /* DartNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DartNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA9495928D3F20700AC838B /* DartNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartNoteUITests.swift; sourceTree = "<group>"; };
+		4AA9495B28D3F20700AC838B /* DartNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA9493328D3F20600AC838B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA9494828D3F20700AC838B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA9495228D3F20700AC838B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA9492D28D3F20600AC838B = {
+			isa = PBXGroup;
+			children = (
+				4AA9493828D3F20600AC838B /* DartNote */,
+				4AA9494E28D3F20700AC838B /* DartNoteTests */,
+				4AA9495828D3F20700AC838B /* DartNoteUITests */,
+				4AA9493728D3F20600AC838B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA9493728D3F20600AC838B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9493628D3F20600AC838B /* DartNote.app */,
+				4AA9494B28D3F20700AC838B /* DartNoteTests.xctest */,
+				4AA9495528D3F20700AC838B /* DartNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA9493828D3F20600AC838B /* DartNote */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9493928D3F20600AC838B /* DartNoteApp.swift */,
+				4AA9493B28D3F20600AC838B /* ContentView.swift */,
+				4AA9493D28D3F20700AC838B /* Assets.xcassets */,
+				4AA9494228D3F20700AC838B /* Persistence.swift */,
+				4AA9494428D3F20700AC838B /* DartNote.xcdatamodeld */,
+				4AA9493F28D3F20700AC838B /* Preview Content */,
+			);
+			path = DartNote;
+			sourceTree = "<group>";
+		};
+		4AA9493F28D3F20700AC838B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9494028D3F20700AC838B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AA9494E28D3F20700AC838B /* DartNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9494F28D3F20700AC838B /* DartNoteTests.swift */,
+			);
+			path = DartNoteTests;
+			sourceTree = "<group>";
+		};
+		4AA9495828D3F20700AC838B /* DartNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9495928D3F20700AC838B /* DartNoteUITests.swift */,
+				4AA9495B28D3F20700AC838B /* DartNoteUITestsLaunchTests.swift */,
+			);
+			path = DartNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA9493528D3F20600AC838B /* DartNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA9495F28D3F20700AC838B /* Build configuration list for PBXNativeTarget "DartNote" */;
+			buildPhases = (
+				4AA9493228D3F20600AC838B /* Sources */,
+				4AA9493328D3F20600AC838B /* Frameworks */,
+				4AA9493428D3F20600AC838B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DartNote;
+			productName = DartNote;
+			productReference = 4AA9493628D3F20600AC838B /* DartNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AA9494A28D3F20700AC838B /* DartNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA9496228D3F20700AC838B /* Build configuration list for PBXNativeTarget "DartNoteTests" */;
+			buildPhases = (
+				4AA9494728D3F20700AC838B /* Sources */,
+				4AA9494828D3F20700AC838B /* Frameworks */,
+				4AA9494928D3F20700AC838B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AA9494D28D3F20700AC838B /* PBXTargetDependency */,
+			);
+			name = DartNoteTests;
+			productName = DartNoteTests;
+			productReference = 4AA9494B28D3F20700AC838B /* DartNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AA9495428D3F20700AC838B /* DartNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA9496528D3F20700AC838B /* Build configuration list for PBXNativeTarget "DartNoteUITests" */;
+			buildPhases = (
+				4AA9495128D3F20700AC838B /* Sources */,
+				4AA9495228D3F20700AC838B /* Frameworks */,
+				4AA9495328D3F20700AC838B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AA9495728D3F20700AC838B /* PBXTargetDependency */,
+			);
+			name = DartNoteUITests;
+			productName = DartNoteUITests;
+			productReference = 4AA9495528D3F20700AC838B /* DartNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA9492E28D3F20600AC838B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4AA9493528D3F20600AC838B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4AA9494A28D3F20700AC838B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4AA9493528D3F20600AC838B;
+					};
+					4AA9495428D3F20700AC838B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4AA9493528D3F20600AC838B;
+					};
+				};
+			};
+			buildConfigurationList = 4AA9493128D3F20600AC838B /* Build configuration list for PBXProject "DartNote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AA9492D28D3F20600AC838B;
+			productRefGroup = 4AA9493728D3F20600AC838B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA9493528D3F20600AC838B /* DartNote */,
+				4AA9494A28D3F20700AC838B /* DartNoteTests */,
+				4AA9495428D3F20700AC838B /* DartNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA9493428D3F20600AC838B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA9494128D3F20700AC838B /* Preview Assets.xcassets in Resources */,
+				4AA9493E28D3F20700AC838B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA9494928D3F20700AC838B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA9495328D3F20700AC838B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA9493228D3F20600AC838B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA9494328D3F20700AC838B /* Persistence.swift in Sources */,
+				4AA9493C28D3F20600AC838B /* ContentView.swift in Sources */,
+				4AA9494628D3F20700AC838B /* DartNote.xcdatamodeld in Sources */,
+				4AA9493A28D3F20600AC838B /* DartNoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA9494728D3F20700AC838B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA9495028D3F20700AC838B /* DartNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA9495128D3F20700AC838B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA9495C28D3F20700AC838B /* DartNoteUITestsLaunchTests.swift in Sources */,
+				4AA9495A28D3F20700AC838B /* DartNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AA9494D28D3F20700AC838B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AA9493528D3F20600AC838B /* DartNote */;
+			targetProxy = 4AA9494C28D3F20700AC838B /* PBXContainerItemProxy */;
+		};
+		4AA9495728D3F20700AC838B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AA9493528D3F20600AC838B /* DartNote */;
+			targetProxy = 4AA9495628D3F20700AC838B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AA9495D28D3F20700AC838B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AA9495E28D3F20700AC838B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA9496028D3F20700AC838B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DartNote/Preview Content\"";
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.daily-workout.DartNote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA9496128D3F20700AC838B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DartNote/Preview Content\"";
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.daily-workout.DartNote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AA9496328D3F20700AC838B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.daily-workout.DartNoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DartNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DartNote";
+			};
+			name = Debug;
+		};
+		4AA9496428D3F20700AC838B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.daily-workout.DartNoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DartNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DartNote";
+			};
+			name = Release;
+		};
+		4AA9496628D3F20700AC838B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.daily-workout.DartNoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DartNote;
+			};
+			name = Debug;
+		};
+		4AA9496728D3F20700AC838B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W59W3QVKXJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigmatech.daily-workout.DartNoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DartNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA9493128D3F20600AC838B /* Build configuration list for PBXProject "DartNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA9495D28D3F20700AC838B /* Debug */,
+				4AA9495E28D3F20700AC838B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA9495F28D3F20700AC838B /* Build configuration list for PBXNativeTarget "DartNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA9496028D3F20700AC838B /* Debug */,
+				4AA9496128D3F20700AC838B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA9496228D3F20700AC838B /* Build configuration list for PBXNativeTarget "DartNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA9496328D3F20700AC838B /* Debug */,
+				4AA9496428D3F20700AC838B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA9496528D3F20700AC838B /* Build configuration list for PBXNativeTarget "DartNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA9496628D3F20700AC838B /* Debug */,
+				4AA9496728D3F20700AC838B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AA9494428D3F20700AC838B /* DartNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AA9494528D3F20700AC838B /* DartNote.xcdatamodel */,
+			);
+			currentVersion = 4AA9494528D3F20700AC838B /* DartNote.xcdatamodel */;
+			path = DartNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4AA9492E28D3F20600AC838B /* Project object */;
+}
